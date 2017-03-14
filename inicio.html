@@ -1,0 +1,80 @@
+<DOCTYPE! html>
+	<head>
+		<Title>SEEE</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<script src="../Programs/jquery.js"></script>
+		<link rel="stylesheet" href="../Frameworks/BS/bootstrap.min.css"/>
+		<script src="../Frameworks/BS/bootstrap.min.js"></script>
+		<script src="../Programs/para/parallax.min.js"></script>
+		<link rel="shortcut icon" href="../Resources/logo.png" type="image/png"/>
+		<link rel="stylesheet/less" type="text/css" href="../Styles/vista.less"/>
+    <script src="../Programs/less.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header id="main_header">
+			<nav id="barra"class="navbar navbar-default " data-spy="affix" data-offset-top="197">
+				<div class="navbar navbar-default navbar-fat navbar-clean">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+								data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Desplegar navegación</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							 <a class="navbar-brand" href="#">
+								<img class="responsive" width="50%" alt="Brand" src="../Resources/nuevo.png">
+							</a>
+						</div>
+					<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse" id="nav_collapse" >
+					  <ul id="nav-main" class="nav navbar-nav navbar-rigth">
+						<li class="active"><a href="inicio.html"><em>Inicio</em></a></li>
+						<li class="dropdown">
+						  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							Usuarios
+							<span class="caret"></span>
+						  </a>
+							  <ul class="dropdown-menu">
+								  <li class="dropdown-header">Usuarios</li>
+								  <li><a href="login.html"><em>Inicio de sesión</em></a></li>
+								  <li><a href="../Programs/iniciar.php"><em>Registrarse</em></a></li>
+							  </ul>
+							</li>
+							<li class="dropwdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								  Eventos
+								  <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+								  <li class="dropdown-header">Programas</li>
+								  <li><a target="blanck "href="#"><em>Ver eventos</em></a></li>
+								  <li> <a target="blanck" href="#"><em>Apartar boletos</em></a></li>
+								</ul>
+								</li>
+								<li><a href="contacto.html"><em>Contacto</em></a></li>
+						  </ul>
+					</div>
+				  </div>
+				</div>
+			</nav>
+		</header>
+		<div class="parallax-mirror" style="visibility:visible; z-index: -100; position: fixed; 
+		top:0px; left: -15px; overflow: hidden; transform: translate3d(0px,0px,0px);height:300px;width: 320px;">
+			<img class="parallax-slider" src="../Resources/portada.png" style="transform: translate3d(0px,0px,0px);
+				position:absolute;top:0px;left: -158px; height:315px; width:560px;">
+		</div>
+		<div class="container site">
+			<div class="parallax-window place-bg intro"  data-parallax="scroll" data-image-src="../Resources/portada.png" 
+			data-natural-width="560" data-natural-height="315">
+			</div>
+		</div>
+		<section>
+		</section>
+		<section>
+		</section>
+		<footer>
+		</footer>
+	</body>
+</html>
